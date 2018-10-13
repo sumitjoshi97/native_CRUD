@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 
-const CardItem = props => (
+export const CardItem = props => (
   <View style={styles.containerStyle}>{props.children}</View>
 );
 
@@ -15,6 +15,4 @@ const styles = {
     borderColor: "#DDD",
     position: "relative"
   }
-};
-
-export default CardItem;
+}

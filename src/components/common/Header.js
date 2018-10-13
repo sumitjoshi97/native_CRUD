@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-const Header = props => {
+export const Header = props => {
   const { viewStyle, textStyle } = styles;
   return (
     <View style={viewStyle}>
@@ -22,5 +22,3 @@ const styles = {
     color: "#FFF"
   }
 };
-
-export default Header;
